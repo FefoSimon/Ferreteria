@@ -241,6 +241,7 @@ footer div img{
 }
 
 /* MEDIA QUERIS*/
+
 @media (max-width: 768px) {
 
     .container-navbar {
@@ -292,6 +293,9 @@ footer div img{
     
 }
 @media (min-width: 1025px){
+    .banner p{
+        font-size: 23px;
+    }
     .Quienes-somos p{
         font-size: 20px;
         padding-left: 30px;
