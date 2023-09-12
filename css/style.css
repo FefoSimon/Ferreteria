@@ -1,0 +1,300 @@
+/*RESET*/
+    body{
+        background-color:#050505
+    }
+
+    *{
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #b5e2fa;
+    }
+
+/*header*/
+   
+
+    .logo{    
+    height: 140px;
+    padding-left: 90px;
+    }   
+
+    .bg-nabvar{
+        background-color: #1f1e1e;
+    }
+    .nav-link{
+       color: #b5e2fa; 
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: #FCFC62;
+    }
+    
+        
+/*Grid*/
+     .grid_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr auto 1fr;
+        grid-template-areas: 
+        "menu   menu"
+        "inicial    inicial"
+        "pie    pie";
+
+        
+     }
+
+     .barra-grid{
+        grid-area: menu;
+     }
+
+     .principal-grid{
+        grid-area:inicial;
+    }
+
+    .final-grid{
+        grid-area:pie;
+    }
+
+
+/*Index*/
+
+    .container-video{
+        margin-bottom: 80px;
+    }
+
+    .video-local{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        
+        
+        
+        
+        
+        
+
+    }
+    .titulo-main{
+        font-size: 85px;
+        font-weight: 600;
+        text-align: center;
+        color: #FCFC62 ;
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 30px;
+        }
+
+    .banner p{
+        font-family: sans-serif ;
+        font-size: 27px ;
+        display: flex;
+        align-items: center;
+        color: #FCFC62;
+        z-index: 1;
+        
+    }
+
+    .banner{
+        background-image: url(../assets/banner.jpg);
+        height: 150px;
+        display: flex;
+        padding-top: 30px;
+    }
+
+   
+    
+
+
+    
+
+
+/*Quienes somos*/
+
+    .container-quienes-somos{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 100px
+        
+    }
+
+    .Quienes-somos{
+        
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
+
+    .Quienes-somos p{
+        display: flex;
+        font-size: 25px;
+        width: 900px;
+       justify-content: center;
+       align-items: center;
+    }
+ 
+    .Quienes-somos img{
+    
+    width: 300px;
+ }
+    .Quienes-somos-1{
+        margin-bottom: 100px;
+    }
+
+
+
+/*Nuestros productos*/
+
+    .card-container{
+        padding: 50px 50px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+
+    }
+   
+    .card{
+       
+        width: calc(33.33% - 1rem); 
+        margin-bottom: 1rem;
+        border: 1px solid #FCFC62;
+        background-color: #b4afaf;
+    }
+    
+    .card-img-top{
+        width: 250px;
+        height: 250px;
+        
+    }
+    
+    .card-text{
+        color: black;
+    }
+
+/*Formas de pago*/
+     
+     .container-formas-de-pago{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .formas-de-pago{
+        display: flex;
+        flex-direction: column;
+
+     }
+
+    
+
+     .formas-de-pago img{
+        width: 170px;
+        display: flex;
+        justify-content: center;
+
+        
+     }
+
+     
+     .formas-de-pago p{
+        align-items: center;
+        display: flex;
+        font-size: 40px;
+        
+     }
+
+
+/*Donde nos ubicamos*/
+
+    .container-ubicacion{
+        display: flex;
+        align-items: center;
+        margin-bottom: 90px;
+        flex-direction: column;
+    }
+
+/*footer*/
+
+.container-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1b1b1b;
+    }
+ 
+.social a{
+    padding: 0px 20px;
+}
+
+footer div a{
+    text-decoration: none;
+}
+
+footer div p{
+    text-align: center;
+}
+
+footer div img{
+    height: 130px;
+    width: 130px;
+}
+
+/* MEDIA QUERIS*/
+@media (max-width: 768px) {
+
+    .container-navbar {
+        flex-direction: column; 
+    }
+
+    .logo{
+        padding-left: 300px;
+    }
+    .titulo-main{
+        font-size: 60px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+   
+    .Quienes-somos img{
+    height: 500px;
+     }
+   
+    
+    .Quienes-somos p{
+        
+        font-size: 16px;
+        
+       padding-left: 15px;
+      
+    }
+   
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+     .titulo-main{
+        font-size: 70px;
+     }
+     .banner p{
+        font-size: 20px;
+     }
+     .container-ubicacion{
+        height: 700px;
+     }
+     .Quienes-somos img {
+        height: 500px;
+     }
+     .Quienes-somos p{
+        font-size: 18px;
+        padding-left: 30px;
+     }
+    
+}
+@media (min-width: 1025px){
+    .Quienes-somos p{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+}
+
