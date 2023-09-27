@@ -1,0 +1,21 @@
+/*Nuestros productos*/
+.card{
+    width: calc(33.33% - 1rem); 
+    margin-bottom: 1rem;
+    border: 1px solid $yelow;
+    background-color: #b4afaf;
+
+    &-container{
+        padding: 50px 50px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: center;  
+    }
+    &-img-top{
+        width: 250px;
+        height: 250px;
+    }
+    &-text{
+        color: $principal-color;
+    }
+}

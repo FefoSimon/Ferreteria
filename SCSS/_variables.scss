@@ -1,0 +1,47 @@
+$yelow:#FCFC62;
+
+$fuente-principal: sans-serif;
+
+$principal-color: #050505;
+
+$color-nv-ft: #1b1b1b;
+
+
+
+//mapas
+
+$redes-sociales:(
+
+    whatsapp:#0c5e0c,
+    facebook:#1010da,
+    instagram:#da15da,
+
+);
+@each $redes,$color in $redes-sociales{
+    .redes-#{$redes}{
+        color: $color;
+        width: 25px;
+        height: 22px;
+        &:hover{
+            box-shadow: 1px 1px 20px $color;
+        }
+    }
+}
+
+
+//font-size
+
+$font-size:(
+    xxl:130px,
+    xl:82px,
+    md:70px,
+    sm:24px,
+    xs:10px,
+);
+
+@each $size,$num in $font-size{
+    .variable-#{$size}{
+    font-size: $num;
+    }
+}
+

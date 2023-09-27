@@ -1,0 +1,33 @@
+/*Index*/
+.container-video{
+    margin-bottom: 80px;
+}
+
+.video-local{
+    @include video;
+}
+.titulo-main{
+    font-size: map-get($font-size,xxl );
+    font-weight: 600;
+    text-align: center;
+    color: $yelow ;
+    font-family: $fuente-principal;
+    padding-top: 30px;
+    @include flex (center,center,none)
+    }
+
+.banner{
+    background-image: url(../assets/banner1.jpg);       
+    height: auto;
+    display: flex;
+    padding-top: 30px;
+
+        p{
+            font-family: $fuente-principal ;
+            font-size: 27px ;
+            display: flex;
+            align-items: center;
+            color:$yelow;
+            z-index: 1;
+    }
+}

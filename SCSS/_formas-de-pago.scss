@@ -1,0 +1,20 @@
+/*Formad de pago*/
+.container-formas-de-pago{
+  @include flex (center,center,column)
+ }
+ .formas-de-pago{
+    display: flex;
+    flex-direction: column;
+    
+
+        img{
+            width: 170px;
+            display: flex;
+            justify-content: center;    
+         }
+         p{
+            align-items: center;
+            display: flex;
+            font-size: 40px;
+         }
+ }

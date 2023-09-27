@@ -9,16 +9,15 @@
     }
 
 /*header*/
+    .container-navbar {
+    flex-direction: column; 
+    }
 
-      .navbar-toggler{
+    .navbar-toggler{
         margin-right: 90px;
         border-color: #FCFC62;
     }
 
-
-    .container-navbar {
-        flex-direction: column; 
-    }
    
     .navbar-toggler-icon{
         color: #fff;
@@ -26,8 +25,13 @@
 
     .navbar-collapse{
         text-align: center;
+        justify-content: flex-end;
     }
 
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: #FCFC62;
+    }
     .logo{    
     height: 140px;
     padding-left: 90px;
@@ -39,19 +43,13 @@
     .nav-link{
        color: #b5e2fa; 
     }
-    .navbar li a:hover{
-        text-decoration: underline;
-        color: #FCFC62;
-    }
+    
 
     .container-fluid{
         display: flex;
         justify-content: space-around;
     }
     
-    .navbar-collapse{
-        justify-content: flex-end;
-    }
         
 /*Grid*/
      .grid_container{

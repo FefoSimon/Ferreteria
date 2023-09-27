@@ -1,0 +1,154 @@
+/*Media Queris*/
+@media (min-width: 1025px){
+
+    /* INICIO */ 
+    .banner p{
+        font-size: 23px;
+    }
+    .Quienes-somos p{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { /* TERMINADA */
+
+
+    /* INICIO */
+
+
+    .container-video{
+        display: flex;
+        justify-content: center;
+    }
+
+    .video-local{
+        
+        width: 100% ;
+    }
+
+    .titulo-main{
+        font-size: 70px;
+     }
+     .banner p{
+        font-size: 20px;
+    }
+
+    /* QUIENES SOMOS */
+
+    .Quienes-somos  {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    
+
+        img{
+            height: 500px;
+            width: 450px;
+            padding-bottom: 50px;
+        }
+        p {
+            width: auto;
+            font-size: 18px;
+            padding-left: 30px;
+        }
+      
+    }
+
+    
+
+    
+
+    /* DONDE NOS UBICAMOS */
+    
+    .container-ubicacion{
+       height: 700px;
+    }
+    
+   
+}
+@media (max-width: 768px) {
+
+    .logo{
+        margin-left: 90px;
+        padding-left: 0px;
+    }
+
+    /* INICIO */
+
+    .container-video{
+        display: flex;
+        justify-content: center;
+    }
+
+    .video-local{
+        
+        width: 95% ;
+    }
+
+    .titulo-main{
+        font-size: 60px;
+    }
+    .banner p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container-social{
+        text-align: center;
+    }
+
+   /* QUIENES SOMOS */
+
+   .Quienes-somos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width: 350px;
+        padding-bottom: 50px;
+    }
+    p {
+        width: auto;
+        font-size: 16px;   
+    }
+
+  
+}
+
+
+   
+}
+@media (max-width: 576px){
+
+    .navbar-toggler{
+        margin: 5px;
+    }
+
+    .logo{
+        margin: 5px;
+    }
+
+
+    /* INICIO */
+
+
+    .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .logo{
+        padding-left: 0px;
+    }
+
+    .ubicacion{
+        width: 400px;
+        height: 300px;
+    }
+
+}

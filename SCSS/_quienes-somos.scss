@@ -1,0 +1,26 @@
+/*Quienes Somos */
+.container-quienes-somos{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px
+    
+}
+.Quienes-somos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+        p{
+            display: flex;
+            font-size: 25px;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width: 300px;
+        }
+    &-1{
+        margin-bottom: 100px;
+    }
+}

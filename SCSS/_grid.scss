@@ -1,0 +1,25 @@
+/*Grid*/
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: 
+    "menu   menu"
+    "inicial    inicial"
+    "pie    pie";
+
+    
+ }
+
+ .barra-grid{
+    grid-area: menu;
+ }
+
+ .principal-grid{
+    grid-area:inicial;
+}
+
+.final-grid{
+    grid-area:pie;
+}
+

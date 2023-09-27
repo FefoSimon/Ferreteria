@@ -1,0 +1,23 @@
+/*Footer*/
+.container-social{
+    background-color:$color-nv-ft;
+    @include flex (space-around,center,none)}
+    
+   
+ 
+.social a{
+    padding: 0px 20px;
+}
+
+.footer{
+    div a {
+        text-decoration: none;
+    }
+    div p{
+        text-align: center;
+    }
+    div img{
+        height: 130px;
+        width: 130px;
+    }
+}

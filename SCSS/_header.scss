@@ -1,0 +1,44 @@
+/*Header*/
+.container-navbar {
+    flex-direction: column; 
+    }
+
+.navbar{
+    &-toggler{
+        margin-right: 90px;
+        border-color:$yelow;
+
+            &-icon{
+                color: #fff;
+            }
+
+    }
+    &-collapse{
+        text-align: center;
+        justify-content: flex-end;
+    }
+    &li a:hover {
+        text-decoration: underline;
+        color:$yelow; 
+    }
+      
+   
+   
+} 
+.logo{    
+    height: 140px;
+    padding-left: 90px;
+    }  
+
+.bg-nabvar{
+        background-color:$color-nv-ft;
+    }
+.nav-link{
+       color: #b5e2fa; 
+    }
+    
+.container-fluid{
+        display: flex;
+        justify-content: space-around;
+    }
+    
