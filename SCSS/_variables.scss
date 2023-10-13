@@ -20,8 +20,8 @@ $redes-sociales:(
 @each $redes,$color in $redes-sociales{
     .redes-#{$redes}{
         color: $color;
-        width: 25px;
-        height: 22px;
+        width: 35px;
+        height: 35px;
         &:hover{
             box-shadow: 1px 1px 20px $color;
         }
